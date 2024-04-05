@@ -35,4 +35,25 @@ Define thresholds for CPU, memory, disk usage, etc. Flag abnormal spikes or prol
 - User and Entity Behavior Analytics (UEBA): Monitor behavior for deviations like unusual access times or locations.
 - Session Analysis: Detect anomalies such as long-duration sessions, multiple failed login attempts, or concurrent logins from different locations.
 
-Feel free to customize and expand upon these techniques based on your specific security log analysis needs.
+
+# Part 2: Preparing for Automation
+
+## In this step, we created azure automation account named as "assignment2".
+
+
+![Screen Shot 2567-04-05 at 12 41 21](https://github.com/TheTeeThailand/CST8919-Assignment2/assets/157184669/955bb191-a2b9-4848-a0ad-c3177e5fc471)
+
+
+![Screen Shot 2567-04-05 at 12 43 07](https://github.com/TheTeeThailand/CST8919-Assignment2/assets/157184669/5f774c2a-a0f9-488b-8300-5358e51e51f7)
+
+
+## Powershell Runbook created:
+
+- Runbooks are scripts (PowerShell or Python) that automate repetitive tasks or workflows within Azure. They can be manually executed, scheduled to run at specific times, or triggered by events.
+ 
+![Screen Shot 2567-04-05 at 12 44 22](https://github.com/TheTeeThailand/CST8919-Assignment2/assets/157184669/2538974a-0a6f-440b-8bdc-834242a25085)
+
+![Screen Shot 2567-04-05 at 12 44 49](https://github.com/TheTeeThailand/CST8919-Assignment2/assets/157184669/7d1b6a11-ace6-497c-bf15-e0d461114601)
+
+
+
