@@ -5,16 +5,16 @@ Anomaly detection techniques are vital for identifying abnormal behavior within 
 
 ## Rule-Based Approaches
 
-### Number of Failed Login Attempts
+- Number of Failed Login Attempts
 Set a threshold for the maximum allowed failed login attempts within a specific time frame. Flag users exceeding this threshold as potential anomalies.
 
-### Unusual File Access Patterns
+- Unusual File Access Patterns
 Define thresholds for file access frequency or volume (reads, writes, deletes). Flag unusually high or low access rates as anomalies.
 
-### Network Traffic Volume
+- Network Traffic Volume
 Monitor network traffic and set thresholds for data volume or packet counts. Flag sudden spikes or drops as anomalous activity.
 
-### Resource Utilization
+- Resource Utilization
 Define thresholds for CPU, memory, disk usage, etc. Flag abnormal spikes or prolonged high utilization as potential issues.
 
 ## Statistical Methods
