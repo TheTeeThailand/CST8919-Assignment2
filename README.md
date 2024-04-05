@@ -1,4 +1,5 @@
 # CST8919-Assignment2
+# Part-1: Understanding Anomaly Detection
 # Anomaly Detection Techniques for Security Log Analysis
 
 Anomaly detection techniques are vital for identifying abnormal behavior within security logs, which can signify potential security threats or breaches. This document outlines common anomaly detection techniques applicable to security log analysis.
