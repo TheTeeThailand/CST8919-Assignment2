@@ -10,8 +10,6 @@
 
 Anomaly detection techniques are vital for identifying abnormal behavior within security logs, which can signify potential security threats or breaches. This document outlines common anomaly detection techniques applicable to security log analysis.
 
-# Anomaly Detection Techniques for Security Log Analysis
-
 ## Statistical Anomaly Detection
 
 - **Mean and Standard Deviation Method**: This method calculates the mean and standard deviation of a metric (e.g., number of login attempts per hour) and flags data points that fall significantly outside of these parameters as anomalies.
