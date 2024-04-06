@@ -10,36 +10,26 @@
 
 Anomaly detection techniques are vital for identifying abnormal behavior within security logs, which can signify potential security threats or breaches. This document outlines common anomaly detection techniques applicable to security log analysis.
 
-## Rule-Based Approaches
+# Anomaly Detection Techniques for Security Log Analysis
 
-- Number of Failed Login Attempts
-Set a threshold for the maximum allowed failed login attempts within a specific time frame. Flag users exceeding this threshold as potential anomalies.
+## Statistical Anomaly Detection
 
-- Unusual File Access Patterns
-Define thresholds for file access frequency or volume (reads, writes, deletes). Flag unusually high or low access rates as anomalies.
+- **Mean and Standard Deviation Method**: This method calculates the mean and standard deviation of a metric (e.g., number of login attempts per hour) and flags data points that fall significantly outside of these parameters as anomalies.
+  
+- **Z-Score Method**: Similar to the mean and standard deviation method, the Z-score measures how many standard deviations a data point is from the mean. Data points with high Z-scores are considered anomalies.
 
-- Network Traffic Volume
-Monitor network traffic and set thresholds for data volume or packet counts. Flag sudden spikes or drops as anomalous activity.
+## Machine Learning-Based Anomaly Detection
 
-- Resource Utilization
-Define thresholds for CPU, memory, disk usage, etc. Flag abnormal spikes or prolonged high utilization as potential issues.
+- **Unsupervised Learning**: Techniques like clustering (e.g., k-means clustering) can be used to identify groups of similar log entries and flag outliers as anomalies.
+  
+- **Supervised Learning**: Anomalies can be detected using supervised learning algorithms like decision trees, random forests, or support vector machines trained on labeled data with both normal and abnormal behavior.
 
-## Statistical Methods
+## Rule-Based Anomaly Detection
 
-- Standard Deviation Analysis: Calculate standard deviation and flag deviations exceeding a threshold.
-- Moving Averages: Use moving averages to detect deviations from expected patterns.
-- Z-Score Analysis: Calculate Z-scores and flag anomalies beyond a threshold.
+- **Threshold-Based Rules**: Setting thresholds for specific log metrics (e.g., number of failed login attempts) and flagging any values that exceed these thresholds as anomalies.
+  
+- **Pattern-Based Rules**: Creating rules based on known attack patterns or suspicious activities and using these rules to detect anomalies in logs.
 
-## Machine Learning-Based Techniques
-
-- Supervised Learning: Train a model to classify log entries as normal or anomalous based on historical data.
-- Unsupervised Learning: Use clustering algorithms to identify clusters deviating from the norm.
-- Semi-Supervised Learning: Combine labeled and unlabeled data to detect anomalies with fewer false positives.
-
-## Behavioral Analysis
-
-- User and Entity Behavior Analytics (UEBA): Monitor behavior for deviations like unusual access times or locations.
-- Session Analysis: Detect anomalies such as long-duration sessions, multiple failed login attempts, or concurrent logins from different locations.
 
 
 # Part 2: Preparing for Automation
