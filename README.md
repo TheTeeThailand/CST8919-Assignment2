@@ -1,4 +1,10 @@
 # CST8919-Assignment2
+
+# Group Members
+- Parvezbhai Malek
+- Yash Solanki
+- Thep Rungpholsatit
+  
 # Part-1: Understanding Anomaly Detection
 # Anomaly Detection Techniques for Security Log Analysis
 
