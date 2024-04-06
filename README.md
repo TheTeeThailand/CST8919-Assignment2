@@ -55,5 +55,11 @@ Define thresholds for CPU, memory, disk usage, etc. Flag abnormal spikes or prol
 
 ![Screen Shot 2567-04-05 at 12 44 49](https://github.com/TheTeeThailand/CST8919-Assignment2/assets/157184669/7d1b6a11-ace6-497c-bf15-e0d461114601)
 
+- Connect to Azure Log Analytics:
+
+- ![WhatsApp Image 2024-04-05 at 8 57 11 PM (1)](https://github.com/TheTeeThailand/CST8919-Assignment2/assets/157184669/49e43aeb-939e-4eef-a418-3bd4c1aaa963)
+
+![WhatsApp Image 2024-04-05 at 8 57 11 PM](https://github.com/TheTeeThailand/CST8919-Assignment2/assets/157184669/3e95d80d-de36-4401-ad61-c26b8b1636e1)
+
 
 
