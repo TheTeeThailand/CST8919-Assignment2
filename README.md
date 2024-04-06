@@ -55,11 +55,27 @@ Define thresholds for CPU, memory, disk usage, etc. Flag abnormal spikes or prol
 
 ![Screen Shot 2567-04-05 at 12 44 49](https://github.com/TheTeeThailand/CST8919-Assignment2/assets/157184669/7d1b6a11-ace6-497c-bf15-e0d461114601)
 
-- Connect to Azure Log Analytics:
+ 
+ ## Connect to Azure Log Analytics:
 
-- ![WhatsApp Image 2024-04-05 at 8 57 11 PM (1)](https://github.com/TheTeeThailand/CST8919-Assignment2/assets/157184669/49e43aeb-939e-4eef-a418-3bd4c1aaa963)
+![WhatsApp Image 2024-04-05 at 8 57 11 PM (1)](https://github.com/TheTeeThailand/CST8919-Assignment2/assets/157184669/49e43aeb-939e-4eef-a418-3bd4c1aaa963)
 
 ![WhatsApp Image 2024-04-05 at 8 57 11 PM](https://github.com/TheTeeThailand/CST8919-Assignment2/assets/157184669/3e95d80d-de36-4401-ad61-c26b8b1636e1)
 
+## logs
+
+![Screen Shot 2567-04-05 at 13 32 13](https://github.com/TheTeeThailand/CST8919-Assignment2/assets/157184669/17b55327-b51a-417f-977d-171deb527e35)
+
+## Creating an Azure Logic App
+
+- Configure the Logic App trigger to activate every two minutes, ensuring that the app consistently checks for new data or carries out its assigned tasks at this interval, thus maintaining up-to-date functionality.
+
+![Screen Shot 2567-04-05 at 16 14 08](https://github.com/TheTeeThailand/CST8919-Assignment2/assets/157184669/469ff894-888f-4d81-a584-d5e84568e887)
+
+- Add an Action:
+
+![Screen Shot 2567-04-05 at 19 01 35](https://github.com/TheTeeThailand/CST8919-Assignment2/assets/157184669/3d60bbc5-45f9-4cf4-9e54-d202d2e3b352)
+
+  
 
 
